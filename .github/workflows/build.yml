@@ -19,10 +19,9 @@ jobs:
           - darwin-amd64
           - darwin-arm64
           - windows-amd64
-          - linux-arm64-musl
-          - linux-amd64-musl
+          - alist-linux-arm64
+          - alist-linux-amd64
           - windows-arm64
-          - android-arm64
     name: Build
     runs-on: ${{ matrix.platform }}
     steps:
